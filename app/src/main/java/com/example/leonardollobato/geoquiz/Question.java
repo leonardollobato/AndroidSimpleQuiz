@@ -3,7 +3,7 @@ package com.example.leonardollobato.geoquiz;
 /**
  * Created by leonardollobato on 5/26/16.
  */
-public class Question {
+class Question {
 
     private int mTextResId;
     private boolean mAnswerTrue;
