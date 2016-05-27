@@ -15,8 +15,8 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/true_button"
@@ -32,11 +32,31 @@
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/next_button"
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/next_button"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/previous_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/previous_button"
+            android:src="@drawable/arrow_left"
+            />
+
+        <ImageButton
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/next_button"
+            android:src="@drawable/arrow_right"
+            />
+
+
+    </LinearLayout>
 
 </LinearLayout>
